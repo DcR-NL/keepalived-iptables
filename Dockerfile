@@ -1,3 +1,3 @@
 FROM osixia/keepalived:latest
 
-RUN container packages install iptables
+RUN container packages install iptables-legacy
